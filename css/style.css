@@ -1,0 +1,110 @@
+body{
+    font-family: Courier New;
+}
+
+.header{
+    border: 4px;
+    border-color: teal;
+    margin: 1%;
+    border-style: solid;
+    border-radius: 0px;
+    display: flex;
+}
+.title{
+    width: 78%;
+    background-color:#fd9934;
+    color: teal;
+    border-radius: 2px;
+    font-size: 30px;
+    margin: 2%;
+    padding: 3%;
+}
+
+.lesson-grouped{
+    font-size: 13px;
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 30%;
+}
+.lesson-header{
+    background-color: #116d6b;
+    padding: 6px;
+    border-radius: 6px;
+    padding-left: 2px;
+    margin-bottom: 4%;
+}
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.lesson{
+    width: 95%;
+    border: 2px;
+    border-color: teal;
+    margin: 2.5%;
+    border-style: solid;
+    border-radius: 10px;
+}
+#lesson-1-1{
+    background-color: orange; 
+}
+#lesson-1-2{
+    background-color: teal; 
+}
+#lesson-1-3{
+    background-color: orange; 
+}
+
+.lesson-body{
+    border: 2px;
+    border-color: teal;
+    margin: 1%;
+    border-style: solid;
+    border-radius: 3px;
+    background-color: #d9fffe;
+    padding: 10px;
+    font-size: 16px;
+}
+table{
+    border: 1px;
+    border-style: solid;
+    text-align: center; 
+    width: 97.5%
+}
+
+td{
+    border: 1px;
+    border-style: solid;
+}
+img{
+    border: 1px;
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.highlight{
+    background-color: yellow;
+}
+
+.step-by-step{
+    width: 70%;
+    margin-top: 2%;
+
+}
+.web-diagram{
+    width: 60%;
+}
+.tags{
+    width: 35%;
+}
