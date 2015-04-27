@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - Zenobia Tamboly Stage 1 Notes</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Stage 1</title>
+</head>
+<body>
+<!-- Document Header -->
+  <div class="header">
+    <h1 class="title">Stage 1 Notes on HTML and CSS</h1>
+    <div class="lesson-grouped">
+      <div class="lesson-header">
+        <a href="#lesson-1-1">Lesson 1: Getting Started with HTML and the Web</a>
+      </div>
+      <div class="lesson-header">
+        <a href="#lesson-1-2">Lesson 2: Creating a Structured Document with HTML</a>
+      </div>
+      <div class="lesson-header">
+        <a href="#lesson-1-3">Lesson 3: Adding CSS Style and HTML Structure</a>
+      </div>
+    </div>
+  </div>
+  <div class="lesson" id="lesson-1-1">
+    <div class="lesson-body">
+    <h2><u>Lesson 1: Getting Started with HTML and The Web</u></h2>
+    <b>Basics of the Web</b>
+
+    <ul>
+    <li>The Web</li>
+    <li>HTML and HTTP</li>
+    <li>urls</li>
+    <li>Web Applications</li>
+    </ul>
+
+    <b>The World Wide Web</b>
+    <p>
+      <img src="https://lh3.googleusercontent.com/-HZRlm1WmBjM/VSKs9H1zBJI/AAAAAAAACDE/G74qPzSFZfc/w692-h384/FullSizeRender.jpg" alt="Full Size Render">
+      Invented in the early 1990's, the world wide web is a collection of HTML documents. HTML stands for Hyper Text Markup Language. It is the basis for almost every webpage. The links between pages are hyperlinks or links for short. They make the web "web-like".
+    </p>
+
+    <b>HTML</b>
+    <p>
+    HTML stands for Hypertext Markup Language. HTML documents form the majority of the content on the web. HTML is made up of: </p>
+    <ul>
+    <li>Text Content: what you see</li>
+    <li>Markup: what it looks like (how it's arranged)</li>
+    <li>Reference to other Documents: images and videos</li>
+    <li>Links to other pages</li>
+    </ul>
+    <b> HTML Markup</b>
+      <p> Markup is made up of "tags", it includes (1) a less than symbol, (2) the tag name, (3) the greater than symbol, (4) the contents, which can be other tags or just simply text, and (5) another less than symbol with a slash and tag name, ending with a greater than symbol. </p>
+
+        <p> Names are always the same, the only difference is the closing tag has a slash in front of the name.</p> 
+
+      <p>The whole thing can also be referred to as an element.</p>
+    <br>
+    <br>
+
+    <b>Tags and Elements</b>
+    <p>Different tags can influence the effect of the text, for example, the b-tag makes anything between the opening tag and closing tag appear bold. The em tag makes text italized. If you forget to close the tag, everything after the opening tag will follow the instructions given by the first tag. That is why we sometimes refer to computers as being "stupid", due to their literal interpretations of all our commands.</p>
+      <p>The image tag allows you to include images. </p>
+<p>**Images do not have a closing tag because there are no contents to an image. It is known as a void tag.</p> 
+
+    <br>See  <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444">this video</a> for another explanation.
+
+    <p>
+      <b>HTML attributes</b> 
+    </p>
+    <p>
+      You can render things in html that link urls to certain words in a text.You can render things in html that link urls to certain words in a text. <a href="https://youtu.be/-0S9lBFHeo0">Such as this.</a>The video linked to that explains how to use the anchor tag, very efficiently.
+    </p>
+    <b>Inline/Block</b>
+    <p>There are two different ways of making a break. The br tag is inline, where the p tag is block. The block makes an invisible box around the text, and you can adjust the height and width.</p>
+    </div>
+  </div>
+  <div class="lesson" id="lesson-1-2">
+    <div class="lesson-body">
+      <h2><u>Lesson 2: Creating a Structured Document with HTML</u></h2>
+      <b>Elements</b>
+      <p>Some elements are invisible (like the 'head' element), but all visible elements are rectangular.</p>
+      <ol>
+      <li>Each has an opening tag and a closing tag.</li>
+      <li>This can be text or another element (such as span/a).</li>
+      </ol>
+      <b>HTML and CSS are both “languages"</b>
+       <table>
+    <tr><td>HTML</td>
+      <td>CSS</td>
+    </tr>
+    <tr><td>HTML classify page content by telling the browser what part is text or an image (etc.)</td><td>CSS controls the "style" of a page (how it looks).</td></tr>
+    <tr><td>HTML controls the "structure" of a web page</td><td>Allows you to use a specific syntax and rules to change 
+      <br>(1)how elements look on the page, (2) the size of the font, (3) the color, (4) background, (5) borders, (6) position</td></tr>
+    <tr><td>Has a specific syntax and rules</td><td></td></tr>
+    <tr><td>Tag: basic word in the world of the language of HTML </td><td> </td></tr>
+    <tr><td>The browser turns HTML tags into elements that form a tree (because of the DOM)</td><td></td></tr>    
+    </table> 
+     <p> 
+      <b>DOM</b>
+      <br>When programmers talk about the DOM, Document Object Model, they are talking about the tree-like structure of a page. DOM is a standard convention for representing and interacting with elements in HTML. </p>
+      <b>Everything Is a Box</b>
+      <p> Thinking of the things in terms of boxes makes things a lot easier. Websites have many different elements, such as images, text, and headers. By thinking of things in terms of boxes we can actually easily rearrange things if you decide to give users a different experience. </p>
+        <p> Everything on a webpage is made up of boxes the tag that allows us to do this is the <span class="highlight">div tag</span>. This tag is a block tag the inline version of this is the <span class="highlight">span tag</span>. </p>
+    </div>
+  </div>    
+  <div class="lesson" id="lesson-1-3">
+    <div class="lesson-body" ><h2><u>Lesson 3: Adding CSS Style and HTML Structure</u></h2>
+    <b>Avoiding repetition</b>
+    <p>CSS, cascading style sheets, is a list of rules on the style of the document where the most specific rule applies. The most important thing to remember when designing the CSS sheet is to avoid repetition to save time and reduce chance of errors. The code that do the same thing will often repeat over and over, like copying and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times when experiencing repetition. This is why consistency is a key to a well-organized web page. 
+      </p>
+    <b>Inheritance and CSS</b>
+    <p>Inheritance, the idea that styling not only applies to the specified element but all its decendants unless over-ruled by a more specific rule, has many benefits to it; including saving bandwidth,enhancing loading time and saving time coding. However it is important to note that descendant elements do not inherit all properties in general it is only text related ones. This <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">page</a> goes in depth on the inheritance of CSS. </p>
+    <b>Attributes in CSS </b>
+    <p> You can  set the style of each element by assigning attributes to tags or classes in CSS for different tags or classes
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
+
+</body>
+
+</html>
